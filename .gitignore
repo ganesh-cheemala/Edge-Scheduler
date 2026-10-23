@@ -1,0 +1,13 @@
+# Keep local source archives, consolidated datasets, and generated experiments out of the hosting repository.
+raw dataset/
+processed dataset/
+simulated results/
+
+# Python and local environment files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.DS_Store
+Thumbs.db
