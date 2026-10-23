@@ -28,6 +28,7 @@ st.set_page_config(page_title="Edge Scheduler Lab", page_icon="⚡", layout="wid
 st.markdown("""
 <style>
   .block-container {max-width: 1440px; padding-top: 1.5rem;}
+  [data-testid="stSidebarContent"], [data-testid="stSidebarUserContent"] {  padding-top: 0.25rem !important;}
   [data-testid="stMetric"] {background:#182535; border:1px solid #2b3d51; padding:14px 16px; border-radius:12px;}
   [data-testid="stMetricLabel"] {color:#c6d3e1 !important;}
   [data-testid="stMetricValue"] {color:#f7fbff !important;}
